@@ -1,4 +1,6 @@
-# Your [DocPad](http://docpad.org) Project
+# High Arts Codebase
+
+This is the High Arts website source. Feel free to improve and add content here.
 
 ## License
-Copyright &copy; 2016+ All rights reserved.
+&copy; 2016 - now. By the web team lol.
