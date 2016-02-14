@@ -1,1 +1,9 @@
-function b(){console.log("A");var o="G",l="GFF";console.log(o+l)}var hello="Hello World!";b();
+var hello = "Hello World!";
+
+function b(){
+  console.log("A");
+  var test = "G";
+  var yo = "GFF";
+  console.log(test+yo);
+}
+b()
