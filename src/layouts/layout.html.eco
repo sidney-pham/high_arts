@@ -3,10 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title><%= @getTitle() %></title>
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-  <div id="main">
+  <section id="header">
+    <div class="logo">
+      <h1><a href="/">High Arts</a></h1>
+      <span>Btw, Logo goes here</span>
+    </div>
+    <ul class="navbar">
+      <li><a href="/issues">Issues</a></li>
+      <li><a href="#">Fun Stuff</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </section>
+  <section id="main">
     <%- @content %>
-  </div>
+  </section>
 </body>
 </html>

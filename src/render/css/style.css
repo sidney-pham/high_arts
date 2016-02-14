@@ -1,0 +1,30 @@
+---
+cleancss: true
+---
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto','Helvetica Neue','Segoe UI',sans-serif;
+}
+
+.logo h1 {
+	font-size: 30px;
+}
+
+.logo h1 a{
+	text-decoration: none;
+}
+
+.navbar li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+#header {
+	margin-bottom: 10px;
+}
+
+#main {
+  margin-top: 20px;
+}

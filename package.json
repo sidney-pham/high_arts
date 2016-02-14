@@ -4,11 +4,16 @@
   "description": "New DocPad project without using a skeleton",
   "dependencies": {
     "docpad": "~6.78.4",
+    "docpad-plugin-cleancss": "~2.1.0",
     "docpad-plugin-consolidate": "~2.2.0",
     "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-paged": "~2.4.0",
+    "docpad-plugin-uglify": "~2.4.0",
     "dust": "^0.3.0",
     "dustjs-linkedin": "^2.7.2",
-    "eco": "^1.0.3"
+    "eco": "^1.0.3",
+    "moment": "^2.11.2"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
